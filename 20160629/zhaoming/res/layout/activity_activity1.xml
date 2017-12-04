@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <com.example.zhaoming.view.SlidingMenu
+        
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <LinearLayout 
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+            <include layout="@layout/activity_activity_menu" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/a_hu"
+          android:gravity="center_vertical"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/button2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#00fffafa"
+              android:text="主教学楼"
+              android:textColor="#000000" />
+
+          <Button
+              android:id="@+id/button3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#00fffafa"
+              android:text="机电楼"
+              android:textColor="#000000" />
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#00fffafa"
+              android:text="信工楼"
+              android:textColor="#000000" />
+
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#00fffafa"
+              android:text="游泳馆"
+              android:textColor="#000000" />
+          
+         
+                    
+          </LinearLayout>
+      </LinearLayout>
+    </com.example.zhaoming.view.SlidingMenu>
+
+</RelativeLayout>

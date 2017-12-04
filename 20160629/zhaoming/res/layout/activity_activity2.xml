@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dou_zi"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="89dp"
+        android:background="#00fffafa"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttona"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:background="#00fffafa"
+            android:text="房间1"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00fffafa"
+            android:text="房间2"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00fffafa"
+            android:text="房间3"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00fffafa"
+            android:text="房间4"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00fffafa"
+            android:text="房间5"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

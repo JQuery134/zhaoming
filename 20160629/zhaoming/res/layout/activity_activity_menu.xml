@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/da_xiang"
+    android:orientation="vertical" >
+
+    
+
+    <Button
+        android:id="@+id/buttonm1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#90C2C2C2"
+        android:text="切换账户" />
+
+    <Button
+        android:id="@+id/buttonm2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#90C2C2C2"
+        android:text="退出登录" />
+
+    <Button
+        android:id="@+id/buttonm3"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#90C2C2C2"
+        android:text="关于我们" />
+
+</LinearLayout>
